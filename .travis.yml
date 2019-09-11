@@ -1,0 +1,7 @@
+language: ruby
+script: "bundle exec jekyll build"
+bundler_args: --without development
+cache: bundler
+sudo: false
+rvm:
+  - ruby-2.5.1
